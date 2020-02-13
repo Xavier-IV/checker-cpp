@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
-project(untitled)
+project(checker)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp)
+add_executable(checker main.cpp headers/board.h headers/checker_move.h headers/checker_input.h)
